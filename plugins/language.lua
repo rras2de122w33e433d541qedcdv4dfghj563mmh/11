@@ -32,8 +32,8 @@ function run(msg, matches)
 	  return "<i>زبان سوپرگپ با موفقیت به فارسی با دستورات انگلیسی تغییر کرد</i>"
 elseif matches[1] == "setlang" and matches[2] == "en" then
     redis:set("sp:lang", "en")
-    file = http.request("http://nahrup.ir/view/810/supergroup-en.txt")
-	security = http.request("http://nahrup.ir/view/814/security-en.txt")
+    file = http.request("http://www.folder98.ir/1395/09/1481978056.txt")
+	security = http.request("http://www.folder98.ir/1395/09/1481976192.txt")
     local b = 1
     while b ~= 0 do
     file = file:trim()
