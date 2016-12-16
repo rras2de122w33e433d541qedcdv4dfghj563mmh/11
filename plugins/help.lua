@@ -94,10 +94,10 @@ function run(msg, matches)
 				    if not redis:get("sp:lang") then
 					    return error
 				    elseif redis:get("sp:lang") == "fa" then
-					    help = http.request("http://www.folder98.ir/1395/05/1473700489.txt")
+					    help = http.request("http://www.folder98.ir/1395/09/1481984025.txt")
 						return help
 					elseif redis:get("sp:lang") == "en" then
-					    help = http.request("http://www.folder98.ir/1395/05/1473726399.txt")
+					    help = http.request("http://www.folder98.ir/1395/09/1481984025.txt")
 						return help
 				    elseif redis:get("sp:lang") == "فا" then
 					    help = http.request("http://www.folder98.ir/1395/05/1473703817.txt")
